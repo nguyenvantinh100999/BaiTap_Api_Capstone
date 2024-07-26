@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shose Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/img/logonike1-removebg-preview.png"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <ul>
+            <li><a href="./index.html" class="actives">HOME</a></li>
+            <li><a href="">DETAIL</a></li>
+            <li><a href="#">FOR WOMEN</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <div class="search">
+            <div class="search-input">
+              <input type="text" placeholder="Bạn cần tìm gì" />
+              <i class="fa fa-search"></i>
+            </div>
+            <div class="cart">
+              <a href="#"><i class="fa fa-cart-plus"></i></a>
+            </div>
+          </div>
+          <div class="user">
+            <a href="#">Đăng Nhập</a>
+            <a href="/register.html">Đăng Ký</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="carousels">
+      <div class="banner">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/home-2-01.webp"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1><span>NIKE</span> BASEBALL</h1>
+                <p>
+                  We've handpicked our best gifts for all kinds of athletes.
+                </p>
+                <div class="slide-btn">
+                  <a href="#" class="shop-btn">Shopping now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/home-2-02.webp"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1><span>PERFECT</span> DESIGN</h1>
+                <p>Ready. experience. comfortable and indispensable in life</p>
+                <div class="slide-btn">
+                  <a href="#" class="shop-btn">Shopping now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/home-2-03.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1><span>JACKET</span> TECH PACK</h1>
+                <p>Aurora Shell Jacket Is Ready For Any Adventure.</p>
+                <div class="slide-btn">
+                  <a href="#" class="shop-btn">Shopping now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-botom">
+        <div class="row">
+          <div class="col-4">
+            <div class="carousel-items">
+              <div class="overay"></div>
+              <a href="#">
+                <img src="./assets/img/h2-1.png" alt="h2-1" />
+              </a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="carousel-items">
+              <div class="overay"></div>
+              <a href="#">
+                <img src="./assets/img/h2-2.png" alt="h2-1" />
+              </a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="carousel-items">
+              <div class="overay"></div>
+              <a href="#">
+                <img src="./assets/img/h3-3.png" alt="h2-1" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="products">
+      <div class="container">
+        <div class="product-clipped-text">
+          <h2 class="clipped-text">BESTSELLER</h2>
+        </div>
+        <div class="row"></div>
+      </div>
+    </main>
+    <section class="liveshow">
+      <div class="container">
+        <div class="slides">
+          <div
+            class="slide-item"
+            style="
+              background-image: url(./assets/img/ad4ff5e4-3571-4073-b81d-384d89fd5663.png);
+            "
+          >
+            <div class="slide-content">
+              <div class="name">Switzerland</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div
+            class="slide-item"
+            style="
+              background-image: url(./assets/img/NIKE\ DUNK\ LOW\ MICHIGAN\ VARSITY.png);
+            "
+          >
+            <div class="slide-content">
+              <div class="name">NIKE DUNK LOW</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div
+            class="slide-item"
+            style="background-image: url(./assets/img/Nike\ jordan\ shoe.png)"
+          >
+            <div class="slide-content">
+              <div class="name">Iceland</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div
+            class="slide-item"
+            style="background-image: url(./assets/img/Nike\ running\ shoes.png)"
+          >
+            <div class="slide-content">
+              <div class="name">Australia</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div
+            class="slide-item"
+            style="
+              background-image: url(./assets/img/ROCKY\ -\ A\ Banner\ Design.png);
+            "
+          >
+            <div class="slide-content">
+              <div class="name">Netherland</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div
+            class="slide-item"
+            style="background-image: url(./assets/img/spider.png)"
+          >
+            <div class="slide-content">
+              <div class="name">Ireland</div>
+              <div class="des">Lorem ipsum dolor, sit amet!</div>
+              <button>See More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-services">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="single-service">
+                <div class="service-icon">
+                  <img src="./assets/img/f-1.webp" alt="icon-1" />
+                </div>
+                <div class="serivce-cont">
+                  <h3>Free delivery</h3>
+                  <p>Free shipping on all order</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="single-service">
+                <div class="service-icon">
+                  <img src="./assets/img/f-2.webp" alt="icon-1" />
+                </div>
+                <div class="serivce-cont">
+                  <h3>Online Support 24/7</h3>
+                  <p>Support online 24 hours</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="single-service">
+                <div class="service-icon">
+                  <img src="./assets/img/f-3.webp" alt="icon-1" />
+                </div>
+                <div class="serivce-cont">
+                  <h3>Money Return</h3>
+                  <p>guarantee under 7 days</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="single-service">
+                <div class="service-icon">
+                  <img src="./assets/img/f-5.webp" alt="icon-1" />
+                </div>
+                <div class="serivce-cont">
+                  <h3>Member Discount</h3>
+                  <p>Onevery order over $130</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="single-service">
+                <div class="service-icon">
+                  <img src="./assets/img/f-6.webp" alt="icon-1" />
+                </div>
+                <div class="serivce-cont">
+                  <h3>SECURE PAYMENT</h3>
+                  <p>All cards accepted</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="about-us-footer">
+                <div class="footer-logo">
+                  <a href="#">
+                    <img
+                      src="./assets/img/logonike1-removebg-preview.png"
+                      alt="logoshop"
+                    />
+                  </a>
+                </div>
+                <div class="footer-info">
+                  <p class="phone">(+84)37 4149 052</p>
+                  <p class="desc_footer">
+                    We are a team of designers and developers that create high
+                    quality Magento, Prestashop, Opencart.
+                  </p>
+                  <div class="social_follow">
+                    <ul class="social-follow-list">
+                      <li class="facebook">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li class="twitter">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li class="youtube">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                      </li>
+                      <li class="google">
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                      </li>
+                      <li class="instagram">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="footer-info-inner">
+                <div class="row">
+                  <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-title">
+                      <h3>Products</h3>
+                    </div>
+                    <ul>
+                      <li><a href="#">Prices drop </a></li>
+                      <li><a href="#">New products </a></li>
+                      <li><a href="#">Best sales </a></li>
+                      <li><a href="#">Stores</a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">My account</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-title">
+                      <h3>Our company</h3>
+                    </div>
+                    <ul>
+                      <li><a href="#">Delivery</a></li>
+                      <li><a href="#">Legal Notice</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Contact us </a></li>
+                      <li><a href="#">Sitemap</a></li>
+                      <li><a href="#">Stores</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-title">
+                      <h3>Your account</h3>
+                    </div>
+                    <ul>
+                      <li><a href="#">Addresses</a></li>
+                      <li><a href="#">Credit slips</a></li>
+                      <li><a href="#">Orders</a></li>
+                      <li><a href="#">Personal info</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-5 offset-xl-1 col-md-6 col-sm-6">
+                    <div class="footer-title">
+                      <h3>Get in touch</h3>
+                    </div>
+                    <div class="block-contact-text">
+                      <p>
+                        Juta - Responsive Prestashop Theme<br />123 Main Street,
+                        Anytown, CA 12345 - USA.<br />United States
+                      </p>
+                      <p>Call us: <span>(012) 800 456 789-987 </span></p>
+                      <p>Email us: <span>demo@posthemes.com</span></p>
+                    </div>
+                    <div class="time">
+                      <h3 class="time-title">Opening time</h3>
+                      <div class="time-text">
+                        <p>
+                          Open: <span>8:00 AM</span> - Close:
+                          <span>18:00 PM</span>
+                          Saturday - Sunday: Close
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright">
+                Copyright © <a href="#">Tình</a>. All Rights Reserved
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="payment">
+                <img alt="" src="./assets/img/payment.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AXIOS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="./js/index.js" type="module"></script> -->
+    <script src="./controllers/quanLyProduct.js" type="module"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
